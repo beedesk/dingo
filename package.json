@@ -1,6 +1,6 @@
 {
   "name": "dingo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Django inspired web development framework on NodeJS",
   "directories": {
     "lib": "./lib"
@@ -23,6 +23,15 @@
     "middleware",
     "admin"
   ],
-  "author": "Thomas @ BeeDesk",
-  "license": "BSD"
+  "author": {
+    "name": "Thomas @ BeeDesk"
+  },
+  "license": "BSD",
+  "readme": "dingo\n=====\n\nDjango inspired web development framework on NodeJS\n",
+  "readmeFilename": "README.md",
+  "_id": "dingo@0.0.0",
+  "_from": "dingo@*",
+  "dependencies": {
+    "connect": "~2.11.2"
+  }
 }
