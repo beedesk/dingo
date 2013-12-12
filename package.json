@@ -26,7 +26,7 @@
     "name": "Thomas @ BeeDesk"
   },
   "license": "BSD",
-  "readme": "dingo\n=====\n\nDjango inspired web development framework on NodeJS\n",
+  "readme": "dingo\n=====\n\nDjango inspired web development framework on NodeJS\nSee, https://github.com/beedesk/dingo-example for example usage.",
   "readmeFilename": "README.md",
   "_id": "dingo@0.0.0",
   "_from": "dingo@*",
