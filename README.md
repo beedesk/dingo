@@ -1,4 +1,4 @@
-# dingo
+# Dingo
 
 Django inspired web development framework on NodeJS.
 
@@ -10,9 +10,10 @@ See, https://github.com/beedesk/dingo-example for usage.
 
 ### Features
 
-Django is a frameowork that is refined over years and are doing "millions of things" for its user. 
+Django is a frameowork that is refined over years and are doing "millions of things" for its users. 
 
-Here are a list of items that Dingo intends to supports, eventually. (checked items were implemented.)
+Dingo, a Django wannabe, just got started in Dec 2013, does about 15 things. And, here is a list of items that Dingo intends to supports, eventually. 
+(checked items were implemented.)
 
 
 #### Project structures
@@ -31,7 +32,7 @@ Here are a list of items that Dingo intends to supports, eventually. (checked it
 - [x] Support `urls.js` conf at `apps` folder level
 - [x] Support app level delegate with `include('app_xyz.urls')`
 - [x] Support regex url rules `patterns('', url(/^app_xyz$/, 'app_xyz.views.index'))`
-- [x] Support parameters in url rules (ie, url('/P?\<param_name_xyz\>\\\\d{5,10}', app_xyz.views.index)).
+- [x] Support parameters in url rules (ie, `url('/P?\<param_name_xyz\>\\\\d{5,10}', app_xyz.views.index)`).
 - [ ] Support `urlresolver.reverse()`
 - [ ] Support test runner `node apps/manage.js test`
 - [ ] Support collect static `node apps/manage.js collectstatic`
