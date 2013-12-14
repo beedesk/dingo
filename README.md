@@ -31,12 +31,11 @@ Here are a list of items that Dingo intends to supports, eventually. (checked it
 - [x] Support `urls.js` conf at `apps` folder level
 - [x] Support app level delegate with `include('app_xyz.urls')`
 - [x] Support regex url rules `patterns('', url(/^app_xyz$/, 'app_xyz.views.index'))`
-- [ ] Support parameters in url rules
+- [x] Support parameters in url rules (ie, url('/P?<param_name_xyz>\\d{5,10}', app_xyz.views.index)).
 - [ ] Support `urlresolver.reverse()`
 - [ ] Support test runner `node apps/manage.js test`
 - [ ] Support collect static `node apps/manage.js collectstatic`
 - [ ] Support custom management commands `node apps/manage.js xyz_custom_commands`
-- [ ] Support tastypie API key authication (with embedded SQL)
 - [ ] Support tastypie API key authication (with embedded SQL)
 
 
