@@ -30,7 +30,6 @@
   "_id": "dingo@0.0.0",
   "_from": "dingo@*",
   "dependencies": {
-    "connect": "~2.11.2",
     "express": "~3.4.7"
   }
 }
