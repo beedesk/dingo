@@ -18,7 +18,7 @@ Here are a list of items that Dingo intends to supports, eventually. (checked it
 #### Project structures
 
 - [x] Support `node apps/manage.js runserver $PORT`
-- [x] Available on npm registry `npm install dingo --save`
+- [x] Available on npm registry (aka, `npm install dingo --save`)
 - [ ] Support `dingo-admin startproject mysite`
 - [x] Example `manage.js` file available.
 - [x] Example project folder structure available.
@@ -31,12 +31,13 @@ Here are a list of items that Dingo intends to supports, eventually. (checked it
 - [x] Support `urls.js` conf at `apps` folder level
 - [x] Support app level delegate with `include('app_xyz.urls')`
 - [x] Support regex url rules `patterns('', url(/^app_xyz$/, 'app_xyz.views.index'))`
-- [x] Support parameters in url rules (ie, url('/P?<param_name_xyz>\\d{5,10}', app_xyz.views.index)).
+- [x] Support parameters in url rules (ie, url('/P?\<param_name_xyz\>\\\\d{5,10}', app_xyz.views.index)).
 - [ ] Support `urlresolver.reverse()`
 - [ ] Support test runner `node apps/manage.js test`
 - [ ] Support collect static `node apps/manage.js collectstatic`
 - [ ] Support custom management commands `node apps/manage.js xyz_custom_commands`
 - [ ] Support tastypie API key authication (with embedded SQL)
+- [ ] Support module dependency as an plugin app (eg, settings.INSTALL_APPS = ['dingo-registration', 'dingo-notification' /*, ... */])
 
 
 #### Major components

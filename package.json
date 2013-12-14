@@ -1,6 +1,6 @@
 {
   "name": "dingo",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Django inspired web development framework on NodeJS",
   "directories": {
     "lib": "./lib"
@@ -30,6 +30,7 @@
   "_id": "dingo@0.0.0",
   "_from": "dingo@*",
   "dependencies": {
-    "connect": "~2.11.2"
+    "connect": "~2.11.2",
+    "express": "~3.4.7"
   }
 }
