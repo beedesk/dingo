@@ -34,15 +34,15 @@ Dingo, a Django wannabe, just got started in Dec 2013, does about 15 things. And
 - [x] Support regex url rules `patterns('', url(/^app_xyz$/, 'app_xyz.views.index'))`
 - [x] Support parameters in url rules (ie, `url('/owner_(P?<param_name_xyz>\d{5,10})', 'app_xyz.views.index')`).
 - [ ] Support `urlresolvers.reverse()`
-- [ ] Support test runner `node apps/manage.js test`
+- [x] Support test runner `node apps/manage.js test` (mocha test)
+- [ ] Support test filter `node apps/amange.js test app_foo app_bar.Basic`.
 - [ ] Support collect static `node apps/manage.js collectstatic`
 - [ ] Support custom management commands `node apps/manage.js xyz_custom_commands`
 - [ ] Support tastypie API key authication (with embedded SQL)
 - [ ] Support Handlebars templates view
 - [ ] Support `plate` or other django-template JavaScript view (Handlebars is higher priority, do we really need django template?)
 - [ ] Discover multiple `hbs` files under `templates` folder
-- [ ] Support module dependency as an plugin app (eg, settings.INSTALL_APPS = ['dingo-registration', 'dingo-notification' /*, ... */])
-
+- [ ] Support module dependency as an plugin app (eg, `settings.INSTALL_APPS = ['dingo-registration', 'dingo-notification' /*, ... */]`)
 
 #### Major components
 
