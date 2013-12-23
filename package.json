@@ -31,6 +31,7 @@
   "_from": "dingo@*",
   "dependencies": {
     "express": "~3.4.7",
-    "mocha": "~1.15.1"
+    "mocha": "~1.15.1",
+    "nunjucks": "~1.0.1"
   }
 }
