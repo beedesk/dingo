@@ -39,9 +39,10 @@ Dingo, a Django wannabe, just got started in Dec 2013, does about 15 things. And
 - [ ] Support collect static `node apps/manage.js collectstatic`
 - [ ] Support custom management commands `node apps/manage.js xyz_custom_commands`
 - [ ] Support tastypie API key authication (with embedded SQL)
-- [ ] Support Handlebars templates view
-- [ ] Support `plate` or other django-template JavaScript view (Handlebars is higher priority, do we really need django template?)
-- [ ] Discover multiple `hbs` files under `templates` folder
+- [x] Support Django style template (thru nunjucks). 
+- [x] Support `dingo.templates.TemplateView.as_view('blogs/blog_entry.html')`.
+- [x] Support `dingo.shortcuts.render`
+- [ ] Support `{% url 'page' %}` in template
 - [ ] Support module dependency as an plugin app (eg, `settings.INSTALL_APPS = ['dingo-registration', 'dingo-notification' /*, ... */]`)
 
 #### Major components
