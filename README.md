@@ -42,6 +42,7 @@ Dingo, a Django wannabe, just got started in Dec 2013, does about 15 things. And
 - [x] Support Django style template (thru nunjucks). 
 - [x] Support `dingo.templates.TemplateView.as_view('blogs/blog_entry.html')`.
 - [x] Support `dingo.shortcuts.render`
+- [ ] Support templatetag. 
 - [ ] Support `{% url 'page' %}` in template
 - [ ] Support module dependency as an plugin app (eg, `settings.INSTALL_APPS = ['dingo-registration', 'dingo-notification' /*, ... */]`)
 
