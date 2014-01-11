@@ -1,6 +1,6 @@
 {
   "name": "dingo",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Django inspired web development framework on NodeJS",
   "directories": {
     "lib": "./lib"
