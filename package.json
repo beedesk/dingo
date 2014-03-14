@@ -1,6 +1,6 @@
 {
   "name": "dingo",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "description": "Django inspired web development framework on NodeJS",
   "directories": {
     "lib": "./lib"
@@ -23,7 +23,8 @@
     "middleware"
   ],
   "author": {
-    "name": "Thomas @ BeeDesk"
+    "name": "Thomas Yip",
+    "email": "thomasleaf@gmail.com"
   },
   "license": "BSD",
   "readmeFilename": "README.md",

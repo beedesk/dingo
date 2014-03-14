@@ -37,7 +37,7 @@ Dingo, a Django wannabe, just got started in Dec 2013, does about 15 things. And
 - [x] Support test runner `node apps/manage.js test` (mocha test)
 - [ ] Support test filter `node apps/amange.js test app_foo app_bar.Basic`.
 - [ ] Support collect static `node apps/manage.js collectstatic`
-- [ ] Support custom management commands `node apps/manage.js xyz_custom_commands`
+- [x] Support custom management commands `node apps/manage.js xyz_custom_commands`
 - [ ] Support tastypie API key authication (with embedded SQL)
 - [x] Support Django style template (thru nunjucks). 
 - [x] Support `dingo.templates.TemplateView.as_view('blogs/blog_entry.html')`.
